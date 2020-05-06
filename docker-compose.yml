@@ -5,7 +5,7 @@ services:
         image: iwng/jupyroot:python3.7-root6.20.4
         container_name: jupyroot
         ports:
-            - 8888:8888
+            - 8889:8888
         volumes:
             - ./notebook:/home/jovyan/notebook
         working_dir: /home/jovyan/notebook

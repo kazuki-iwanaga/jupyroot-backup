@@ -5,7 +5,7 @@
 
 FROM jupyter/datascience-notebook
 
-LABEL maintainer="Kazuki Iwanaga <>"
+LABEL maintainer="Kazuki Iwanaga <iwanaga.kazuki@sample.com>"
 
 USER root
 

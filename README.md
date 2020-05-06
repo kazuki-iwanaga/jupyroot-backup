@@ -12,7 +12,7 @@
 
 # How to use
 
-Install `Docker`( See https://docs.docker.com/get-docker/ ) and
+Install `Docker`( see https://docs.docker.com/get-docker/ ) and
 clone this repository :
 ```sh
 git clone https://github.com/kazuki-iwanaga/jupyroot.git

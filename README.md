@@ -5,6 +5,11 @@
 - `Jupyter Notebook v6.0.3`
 - `Jupyter Lab v1.2.5`
 
+# Warning
+
+- **Do not change the directory name of `notebook`**
+  since its relative path from `docker-compose.yml` is so important.
+
 # How to use
 
 Install `Docker`. ( See https://docs.docker.com/get-docker/ )

@@ -1,8 +1,8 @@
 version: '3'
 services:
     jupyroot:
-        build: ./
-        image: iwng/jupyroot
+        # build: ./
+        image: iwng/jupyroot:python3.7-root6.20.4
         container_name: jupyroot
         ports:
             - 8888:8888
@@ -10,5 +10,5 @@ services:
             - ./notebook:/home/jovyan/notebook
         working_dir: /home/jovyan/notebook
         command: >
-            jupyter-lab --no-browser --port=8888 --ip=0.0.0.0
-            --NotebookApp.token='tof'
+            jupyter-lab --no-browser --port=8888
+            --ip=0.0.0.0 --NotebookApp.token='tof'

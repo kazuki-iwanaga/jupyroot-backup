@@ -29,6 +29,7 @@ git clone https://github.com/kazuki-iwanaga/jupyroot.git
 3. Open http://localhost:8889 in your web browser
    and log in to Jupyter Notebook.
    **The default password is `hep`.**
+   `notebook` directory is mounted on the home directory of the container.
 4. Stop and destroy the container.
 
    ```sh
@@ -58,6 +59,7 @@ git clone https://github.com/kazuki-iwanaga/jupyroot.git
    in your web browser
    and log in to Jupyter Notebook.
    **The default password is `hep`.**
+   `notebook` directory is mounted on the home directory of the container.
 5. Stop and destroy the container :
 
    ```sh

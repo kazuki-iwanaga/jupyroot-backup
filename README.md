@@ -42,10 +42,13 @@ git clone https://github.com/kazuki-iwanaga/jupyroot.git
    ```
 3. Check your virtual machine IP address :
    ```sh
-   docker-machine ip default # `default` is your virtual machine name
-   > 192.168.23.67 # example
+   docker-machine ls # Print your all accessible local machines
    ```
-4. Open http://192.168.23.67:8889 in your web browser
+   or
+   ```sh
+   docker-machine ip default # Replace `default` to your virtual machine name
+   ```
+4. Open http://your.virtual.machine.ip:8889 in your web browser
    and log in to Jupyter Notebook.
    **The default password is `hep`.**
 5. Stop and destroy the container :

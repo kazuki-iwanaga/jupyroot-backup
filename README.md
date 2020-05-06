@@ -22,6 +22,7 @@ git clone https://github.com/kazuki-iwanaga/jupyroot.git
 
 1. Check if `Docker` is running.
 2. Create the container :
+
    ```sh
    docker-compose up -d
    ```
@@ -29,6 +30,7 @@ git clone https://github.com/kazuki-iwanaga/jupyroot.git
    and log in to Jupyter Notebook.
    **The default password is `hep`.**
 4. Stop and destroy the container.
+
    ```sh
    docker-compose down
    ```
@@ -37,14 +39,17 @@ git clone https://github.com/kazuki-iwanaga/jupyroot.git
 
 1. Check if `Docker` is running.
 2. Create the container :
+
    ```sh
    docker-compose up -d
    ```
 3. Check your virtual machine IP address :
+
    ```sh
    docker-machine ls # Print your all accessible local machines
    ```
    or
+
    ```sh
    docker-machine ip default # Replace `default` to your virtual machine name
    ```
@@ -54,6 +59,7 @@ git clone https://github.com/kazuki-iwanaga/jupyroot.git
    and log in to Jupyter Notebook.
    **The default password is `hep`.**
 5. Stop and destroy the container :
+
    ```sh
    docker-compose down
    ```

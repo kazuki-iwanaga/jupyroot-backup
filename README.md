@@ -12,7 +12,11 @@
 
 # How to use
 
-Install `Docker`( See https://docs.docker.com/get-docker/ ).
+Install `Docker`( See https://docs.docker.com/get-docker/ ) and
+clone this repository :
+```sh
+
+```
 
 ## Docker Desktop for Windows/Mac
 
@@ -44,7 +48,7 @@ Install `Docker`( See https://docs.docker.com/get-docker/ ).
 4. Open http://192.168.23.67:8889 in your web browser
    and log in to Jupyter Notebook.
    **The default password is `hep`.**
-5. Stop and destroy the container.
+5. Stop and destroy the container :
    ```sh
    docker-compose down
    ```

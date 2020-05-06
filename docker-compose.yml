@@ -1,0 +1,12 @@
+version: '3'
+services:
+    jupyroot:
+        build: ./
+        image: iwng/jupyroot
+        container_name: jupyroot
+        ports:
+            - 8888:8888
+        volumes:
+            - ./notebook:/home/jovyan/notebook
+        working_dir:
+            - /home/jovyan/notebook

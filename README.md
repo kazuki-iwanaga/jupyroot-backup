@@ -13,7 +13,7 @@
    ```
    docker-compose up -d
    ```
-3. Open http://localhost:8888 in your web browser
+3. Open http://localhost:8889 in your web browser
    and log in to Jupyter Notebook.
    **The default password is `hep`.**
 4. Stop and destroy the container.

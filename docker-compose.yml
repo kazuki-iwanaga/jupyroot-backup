@@ -1,8 +1,7 @@
 version: '3'
 services:
     jupyroot:
-        # build: ./
-        image: iwng/jupyroot:python3.7-root6.20.4
+        image: iwng/jupyroot:latest
         container_name: jupyroot
         ports:
             - 8889:8888
